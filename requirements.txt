@@ -1,0 +1,4 @@
+Flask==0.12.2
+zappa==0.45.1
+boto3==1.4.7
+validators==0.12.0

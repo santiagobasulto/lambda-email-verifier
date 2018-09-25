@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "app_function": "main.app",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "lambda-email-verifier",
+        "runtime": "python3.6",
+        "log_level": "ERROR",
+        "memory_size": 128,
+        "exclude": [
+            "boto3", "dateutil", "botocore", "s3transfer",
+            "concurrent", "pytest", "ipython", "throwaway_domains.txt",
+            "code_utils.py"],
+        "s3_bucket": "zappa-lambda-email-verifier"
+    }
+}
